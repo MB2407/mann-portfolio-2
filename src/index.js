@@ -8,9 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 ReactDOM.render(
 
     <React.StrictMode>
-    	<HashRouter>
-        	<App />
-        </HashRouter>
+        <App />
     </React.StrictMode>,
     document.getElementById('root')
 );
