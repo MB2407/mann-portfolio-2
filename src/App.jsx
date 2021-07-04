@@ -14,8 +14,8 @@ function App() {
     return(
         <div className="app">
             <React.Fragment>
-                <Navbar />
-                <Router>        
+                <Router>    
+                    <Navbar />
                     <Switch>
                         <Route exact path="/" component={Header} />
                         <Route path="/intro" component={Intro} />
